@@ -1,0 +1,8 @@
+data:
+  n_normal: 300
+  n_anomaly_per_type: 15   # 4 types × 15 = 60 anomalies
+  seed: 42
+
+detector:
+  contamination: 0.15      # expected anomaly fraction
+  seed: 42
